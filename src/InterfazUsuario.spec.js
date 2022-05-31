@@ -1,4 +1,4 @@
-import fs from "fs";
+/*import fs from "fs";
 
 describe("Pruebas", () => {
     beforeAll(() =>{
@@ -30,4 +30,4 @@ describe("Pruebas", () => {
         //expect(resultado.innerHTML).toEqual("La palabra es arbol");
     }); 
 
-});
+});*/
