@@ -1,9 +1,13 @@
 class CambioMoneda 
 {
     devolverCambio(numero){
-        if(numero > 5){
-            return 5;
+        let lista = "";
+        var cont = numero;
+        while(cont > 5){
+            lista = lista +"5"
+            cont = cont - 5;
         }
+       return lista;
     }
 }
 
