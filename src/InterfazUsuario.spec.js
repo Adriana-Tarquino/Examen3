@@ -19,6 +19,13 @@ describe("Pruebas", () => {
     
         const botonAdivinar = document.querySelector("#boton-adivinar");
         botonAdivinar.click();
+    }); 
+    it("Deberia mostrar el efectivo", () => {
+        const monto = document.querySelector("#efectivo-text");
+        monto.value = "45";
+    
+        const botonAdivinar = document.querySelector("#boton-adivinar");
+        botonAdivinar.click();
        // const resultado = document.querySelector("#resultado-div");
         //expect(resultado.innerHTML).toEqual("La palabra es arbol");
     }); 
