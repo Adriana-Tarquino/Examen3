@@ -7,6 +7,9 @@ class CambioMoneda
             lista = lista +"5"
             cont = cont - 5;
         }
+        if(cont > 2){
+           lista += "2";
+        }
        return lista;
     }
 }

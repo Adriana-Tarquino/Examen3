@@ -6,7 +6,9 @@ describe("---Letras que estan en la posicion correcta----",() =>{
       expect(cambi.devolverCambio(6)).toEqual("5");
     });
     it("Devolver el cambio de 19 bs devolver todos los 5 bs en una lista", () => {
-        expect(cambi.devolverCambio(19)).toEqual("555");
-      });
-    
+        expect(cambi.devolverCambio(16)).toEqual("555");
+    });
+      it("Devolver el cambio de 19 bs devolver todos los 5 bs mas dos bs en una lista", () => {
+        expect(cambi.devolverCambio(19)).toEqual("5552");
+    });
 });
